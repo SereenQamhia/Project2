@@ -370,6 +370,21 @@ h3 {
 .center {
   padding: 8px;
 }
+.i-c{
+  color: #765b3d;
+}
+.pro-img{
+  width: 35%; height: 400px;padding: 15px;
+}
+.pro-img2{
+  width: 25%; height: 560px; float: right;
+}
+.hala{
+  float: right; background-color: #d5c2a5;
+}
+.in{
+  color: #3c2a1c;text-decoration: underline;
+}
 @media screen and (min-width: 481px) and (max-width: 1024px) {
   #bg-imag {
     height: 700px;
