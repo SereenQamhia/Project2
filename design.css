@@ -7,7 +7,7 @@
 }
 #bg-imag {
   background-image: url(./image/image_png.png);
-  height: 450px;
+  height: 550px;
   width: 100%;
   background-size: contain;
   display: flex;
@@ -28,7 +28,7 @@
   color: #483218;
   font-family: "Dancing Script", cursive;
   font-weight: bolder;
-  font-size: 70px;
+  font-size: 60px;
 }
 .logo {
   color: #483218;
@@ -43,9 +43,10 @@
 }
 #me {
   width: 100%;
-  height: 100%;
+  height: 90%;
   position: relative;
   right: 70px;
+  top: 55px;
 }
 #intro {
   width: 100%;
@@ -57,7 +58,7 @@
   font-size: 60px;
   position: relative;
   left: 150px;
-  top: 100px;
+  top: 150px;
 }
 #hello {
   color: #6f5f4c;
@@ -66,7 +67,7 @@
   font-size: 30px;
   position: relative;
   left: 150px;
-  top: 90px;
+  top: 130px;
 }
 .cap {
   color: #8a7b66;
@@ -415,7 +416,7 @@ h3 {
 
 @media screen and (min-width: 481px) and (max-width: 1024px) {
   #bg-imag {
-    height: 700px;
+    height: 550px;
     width: 1100px;
   }
   .nav {
@@ -450,7 +451,7 @@ h3 {
     font-size: 15px;
   }
   .footer {
-    top: 3550px;
+    top: 3300px;
     width: 1100px;
   }
   .arrow {
@@ -516,7 +517,7 @@ h3 {
     font-weight: 900px;
   }
   .footer {
-    top: 12900px;
+    top: 12800px;
     width: 1150px;
     height: 700px;
     flex-direction: column;
